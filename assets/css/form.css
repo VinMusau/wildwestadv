@@ -1,0 +1,100 @@
+body {  
+    font-family: Arial, sans-serif; 
+    background-image: url('/home/khabib/wildwest/images/default.jpg'); 
+    /* background: linear-gradient(to right, #6a11cb, #2575fc);  Gradient background */  
+    margin: 0;  
+    padding: 20px;  
+}  
+
+.container {  
+    max-width: 500px;  
+    margin: auto;  
+    background: rgba(255, 255, 255, 0.15); /* Semi-transparent white */  
+    backdrop-filter: blur(10px); /* Blur effect for glassmorphism */  
+    border-radius: 15px; /* Rounded corners */  
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Shadow for depth */  
+    padding: 20px;  
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional border for better visibility */  
+}  
+
+h1 {  
+    text-align: center;  
+    color: white; /* Text color for title */  
+}  
+
+label {  
+    display: block;  
+    margin: 10px 0 5px;  
+    color: white; /* Text color for labels */  
+}  
+
+input,  
+select {  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 15px;  
+    border: none; /* No border */  
+    border-radius: 5px;  
+    background: rgba(255, 255, 255, 0.7); /* Light opaque background */  
+}  
+
+input:focus,  
+select:focus {  
+    outline: none; /* Remove default outline */  
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8); /* Highlight effect on focus */  
+}  
+
+button {  
+    width: 100%;  
+    padding: 10px;  
+    background-color: #5cb85c;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    transition: background-color 0.3s; /* Smooth transition for hover effect */  
+}  
+
+button:hover {  
+    background-color: #4cae4c; /* Darker green on hover */  
+}  
+
+#error {  
+    color: red;  
+}
+
+.footer {  
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background for contrast */  
+    color: white; /* White text for readability */  
+    padding: 20px 0; /* Padding for spacing */  
+    text-align: center; /* Center the content */  
+}  
+
+.footer__rights {  
+    max-width: 1200px; /* Limit the width of the footer content */  
+    margin: 0 auto; /* Center align the footer content */  
+    display: flex; /* Use flexbox for layout */  
+    justify-content: space-between; /* Space out elements */  
+    align-items: center; /* Center items vertically */  
+}  
+
+.footer__copy {  
+    margin: 0; /* Remove default margins */  
+    font-size: 14px; /* Set font size */  
+}  
+
+.footer__terms {  
+    display: flex; /* Use flexbox for terms layout */  
+}  
+
+.footer__terms-link {  
+    color: white; /* Link color */  
+    text-decoration: none; /* Remove underline */  
+    margin-left: 15px; /* Space between links */  
+    font-size: 14px; /* Set font size for links */  
+    transition: color 0.3s; /* Smooth color transition */  
+}  
+
+.footer__terms-link:hover {  
+    color: #ffcc00; /* Change color on hover */  
+}
