@@ -47,7 +47,9 @@ document.getElementById('submitButton').addEventListener('click', function() {
     const destination = document.getElementById('destination').value;  
     const start = document.getElementById('start').value;  
     const end = document.getElementById('end').value;  
-    const people = document.getElementById('people').value;  
+    const adults = document.getElementById('adults').value; // Get number of adults  
+    const children = document.getElementById('children').value; // Get number of children  
+    const notes = document.getElementById('notes').value; // Get the additional notes  
 
     if (name && email && phone && destination && start && end && people) {  
         formMessage.innerHTML = `<p>Booking Submitted Successfully!</p>  
@@ -57,7 +59,9 @@ document.getElementById('submitButton').addEventListener('click', function() {
                                  Destination: ${destination}<br>  
                                  Start Date: ${start}<br>  
                                  End Date: ${end}<br>  
-                                 Number of People: ${people}</p>`;  
+                                 Number of Adults: ${adults}<br>  
+                                 Number of Children: ${children}<br>  
+                                 Additional Notes: ${notes}</p>`;  
         formMessage.style.color = "green";  
 
         // Redirecting to another page (replace 'thankyou.html' with your desired link)  
