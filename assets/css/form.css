@@ -64,8 +64,8 @@ button:hover {
 }
 
 .footer {  
-    background-color: rgba(0, 0, 0, 0.8); /* Dark background for contrast */  
-    color: white; /* White text for readability */  
+    background-color: rgba(255, 255, 255, 0.3); /* Transparent white background */  
+    color: black; /* Change text color for better readability on transparent background */  
     padding: 20px 0; /* Padding for spacing */  
     text-align: center; /* Center the content */  
 }  
@@ -88,7 +88,7 @@ button:hover {
 }  
 
 .footer__terms-link {  
-    color: white; /* Link color */  
+    color: black; /* Link color */  
     text-decoration: none; /* Remove underline */  
     margin-left: 15px; /* Space between links */  
     font-size: 14px; /* Set font size for links */  
